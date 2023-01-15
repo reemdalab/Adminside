@@ -9,7 +9,7 @@ const Dashboard = () => {
     navigate('/login')
   }
   return <>
-    <CssBaseline />
+    {/* <CssBaseline />
     <Grid container>
       <Grid item sm={4} sx={{ backgroundColor: 'gray', p: 5, color: 'white' }}>
         <h1>Dashboard</h1>
@@ -20,7 +20,7 @@ const Dashboard = () => {
       <Grid item sm={8}>
         <ChangePassword />
       </Grid>
-    </Grid>
+    </Grid> */}
   </>;
 };
 
